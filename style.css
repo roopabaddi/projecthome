@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&family=Work+Sans&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-image: url("https://toppng.com/uploads/preview/leaves-plant-green-dark-vegetation-11570165814mlbnvq8yip.jpg");
+    background-size: 100% 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 8px solid #1b1717;
+}
+
+#logo img {
+    height: 5vh;
+}
+
+#scroll {
+    width: 80px;
+}
+
+#header-text {
+    max-width: 500px;
+    min-height: 300px;
+    padding: 10% 0%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Passion One", cursive;
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    padding: 5%;
+}
+
+nav {
+    margin: 2% 7%;
+}
+
+#header-text>p {
+    width: 380px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movies {
+    flex-wrap: wrap;
+    min-height: 300px;
+    margin: 3% 14%;
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.movie-image {
+    width: 400px;
+    height: 240px;
+}
+
+.movie-image>img {
+    width: 100%;
+}
+
+.movie-text>p {
+    width: 400px;
+}
+
+footer {
+    height: 90px;
+    text-align: center;
+}
+
+.button {
+    background-color: #f50a5f;
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#play {
+    display: inline;
+}
+
+#scroll {
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-play-state: running;
+}
+
+@keyframes mymove {
+    from {
+        top: 15px;
+    }
+
+    to {
+        top: 100px
+    }
+}
+
+hr {
+    color: #1b1717;
+    border: 4px solid #1b1717;
+}
+
+@media only screen and(max-width:600px) {
+    .wrap-reverse {
+        flex-wrap: wrap-reverse;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .button {
+        margin: 0% 2%;
+    }
+}
+
+
+#hex {
+    height: 350px;
+}
+
+#step {
+    height: 350px;
+}
+
+#shel {
+    height: 350px;
+}
